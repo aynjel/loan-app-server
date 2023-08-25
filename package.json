@@ -1,0 +1,31 @@
+{
+  "name": "loan-app-server",
+  "version": "1.0.0",
+  "description": "Loan Application Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aynjel/loan-app-server.git"
+  },
+  "author": "anggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aynjel/loan-app-server/issues"
+  },
+  "homepage": "https://github.com/aynjel/loan-app-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
